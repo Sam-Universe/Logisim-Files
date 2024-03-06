@@ -2116,4 +2116,27 @@
     <wire from="(250,240)" to="(250,290)"/>
     <wire from="(270,310)" to="(340,310)"/>
   </circuit>
+  <circuit name="NPN_transistor">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="NPN_transistor"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(170,320)" name="Ground"/>
+    <comp lib="0" loc="(210,230)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(250,300)" name="Transistor">
+      <a name="type" val="n"/>
+    </comp>
+    <comp lib="0" loc="(290,300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <wire from="(170,300)" to="(170,320)"/>
+    <wire from="(170,300)" to="(210,300)"/>
+    <wire from="(210,230)" to="(230,230)"/>
+    <wire from="(230,230)" to="(230,280)"/>
+    <wire from="(250,300)" to="(290,300)"/>
+  </circuit>
 </project>
